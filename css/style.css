@@ -1,0 +1,91 @@
+/* Стилі для обнулення відступів у елементів */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+/* обнулення базових властивостей списків (ul) */
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+/* обнулення базових властивостей у посилань */
+a {
+    text-decoration: none;
+}
+
+/* Властивості для коректного відображення картинок */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Властивості для обнулення курсиву address */
+address {
+    font-style: normal;}
+
+    .body{font-style: "Roboto", sans-serif;
+    color:#2c2c2c}
+
+        .header .container{display: flex;
+        align-items: center;}
+
+                .container {
+
+                    width: 1280px;
+                    padding: 0 16px;
+                    margin: 0 auto;
+                }
+        
+                .logo {margin-right: auto;}
+        
+                .nav {margin-right: 30px;}
+        
+                .nav-list {display: flex;
+                gap: 28px;}
+        
+                .nav-link {padding: 28px 0;
+                display: block;
+                font-size: 14px;
+                color: #2c2c2c;}
+                .nav-link:focus,
+                .nav-link:hover{font-weight: 700;
+                text-decoration: underline;
+            color:#bbf330;}
+        
+                .header-btn {font-family: "Roboto", sans-serif;
+                    font-weight: 500;
+        min-width: 98px;
+                    line-height: 1.5;
+                    text-align: right;
+                    color: #2c2c2c;
+                border-radius: 30px;
+                    padding: 0 17px;
+            border: none;
+            cursor: pointer;
+            background: #bbf330;
+                    height: 32px;
+                 }
+        .header-btn:hover,
+      .header-btn:focus{background: #ffe450;}
+
+/*----------hero--------*/
+
+          .hero-title {}
+    
+          .hero-text {}
+    
+          .hero-btn {}
+          .hero-img{border-radius: 291px;
+            width: 528px;
+            height: 568px;
+        border: 25px solid #ffe450;}
+            
